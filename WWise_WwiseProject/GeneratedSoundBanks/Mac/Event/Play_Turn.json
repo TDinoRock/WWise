@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "3206947759",
+    "Type": "Event",
+    "GUID": "{E0000000-0003-4000-8003-000000000003}",
+    "Language": "SFX",
+    "Hash": "{BEF9EC06-23E3-EEBB-C733-640019BBCAE9}",
+    "ObjectPath": "Play_Turn",
+    "ShortName": "Play_Turn",
+    "Path": "Event/Play_Turn.bnk",
+    "Media": [
+     {
+      "Id": "900000301",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Arena\\Turn.wav",
+      "Path": "Media/900000301.wem",
+      "CachePath": "22/{22600AA0-44E0-8956-7752-C2EFFC5D8411}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3206947759",
+      "Name": "Play_Turn",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Turn",
+      "GUID": "{E0000000-0003-4000-8003-000000000003}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.07",
+      "DurationMax": "0.07",
+      "MediaRefs": [
+       {
+        "Id": "900000301"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{333B5049-6B43-542E-BD81-B8361B6978EC}"
+ }
+}

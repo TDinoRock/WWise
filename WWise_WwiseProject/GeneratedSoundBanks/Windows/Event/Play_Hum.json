@@ -1,0 +1,46 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "2893555504",
+    "Type": "Event",
+    "GUID": "{E0000000-0007-4000-8007-000000000007}",
+    "Language": "SFX",
+    "Hash": "{43A2DD2B-7E43-23FF-B06C-FE3B8F4FBCC1}",
+    "ObjectPath": "Play_Hum",
+    "ShortName": "Play_Hum",
+    "Path": "Event/Play_Hum.bnk",
+    "Media": [
+     {
+      "Id": "900000701",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Arena\\Hum.wav",
+      "Path": "Media/900000701.wem",
+      "CachePath": "E8/{E868587D-2E2E-AC9E-531E-6F2D08712BD5}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2893555504",
+      "Name": "Play_Hum",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Hum",
+      "GUID": "{E0000000-0007-4000-8007-000000000007}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "900000701"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{3A36DF6C-D318-5342-FCFE-F224BC5C906F}"
+ }
+}

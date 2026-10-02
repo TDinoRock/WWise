@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "3187155090",
+    "Type": "Event",
+    "GUID": "{E0000000-0006-4000-8006-000000000006}",
+    "Language": "SFX",
+    "Hash": "{5AF9EA19-6007-0449-B704-2CD44CA51985}",
+    "ObjectPath": "Play_Chirp",
+    "ShortName": "Play_Chirp",
+    "Path": "Event/Play_Chirp.bnk",
+    "Media": [
+     {
+      "Id": "900000601",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Arena\\Chirp.wav",
+      "Path": "Media/900000601.wem",
+      "CachePath": "F9/{F9AE75DA-AB1C-08C9-3FB4-9733E33BDD3F}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3187155090",
+      "Name": "Play_Chirp",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Chirp",
+      "GUID": "{E0000000-0006-4000-8006-000000000006}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.22",
+      "DurationMax": "0.22",
+      "MediaRefs": [
+       {
+        "Id": "900000601"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{6F2FB43F-1A14-380E-1E02-0238C41CC6D1}"
+ }
+}

@@ -1,0 +1,32 @@
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	609718125	Arena_Secondary			\Default Work Unit\Secondary Audio Bus\Arena_Secondary	
+	656481476	Players_Quadernary			\Default Work Unit\Quadernary Audio Bus\Players_Quadernary	
+	1149715499	Arena_Tertiary			\Default Work Unit\Tertiary Audio Bus\Arena_Tertiary	
+	1637459849	Quadernary Audio Bus			\Default Work Unit\Quadernary Audio Bus	
+	2082295554	Players_Primary			\Default Work Unit\Main Audio Bus\Players_Primary	
+	2155519241	Arena_Quadernary			\Default Work Unit\Quadernary Audio Bus\Arena_Quadernary	
+	2246998526	Main Audio Bus			\Default Work Unit\Main Audio Bus	
+	2751942785	Arena_Primary			\Default Work Unit\Main Audio Bus\Arena_Primary	
+	2794753238	Dry (Muted)			\Default Work Unit\Main Audio Bus\Dry (Muted)	
+	3155756062	Players_Secondary			\Default Work Unit\Secondary Audio Bus\Players_Secondary	
+	3210816247	Tertiary Audio Bus			\Default Work Unit\Tertiary Audio Bus	
+	3217263726	Players_Tertiary			\Default Work Unit\Tertiary Audio Bus\Players_Tertiary	
+	3434875749	Secondary Audio Bus			\Default Work Unit\Secondary Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	127652387	Players_Secondary_Send			\Default Work Unit\Secondary Audio Bus\Players_Secondary\Players_Secondary_Send	
+	618194488	Arena_Tertiary_Send			\Default Work Unit\Tertiary Audio Bus\Arena_Tertiary\Arena_Tertiary_Send	
+	1407375518	Arena_Primary_Send			\Default Work Unit\Main Audio Bus\Arena_Primary\Arena_Primary_Send	
+	1539677961	Players_Quadernary_Send			\Default Work Unit\Quadernary Audio Bus\Players_Quadernary\Players_Quadernary_Send	
+	1597685999	Players_Primary_Send			\Default Work Unit\Main Audio Bus\Players_Primary\Players_Primary_Send	
+	1736423286	Arena_Quadernary_Send			\Default Work Unit\Quadernary Audio Bus\Arena_Quadernary\Arena_Quadernary_Send	
+	2161507795	Players_Tertiary_Send			\Default Work Unit\Tertiary Audio Bus\Players_Tertiary\Players_Tertiary_Send	
+	3889555570	Arena_Secondary_Send			\Default Work Unit\Secondary Audio Bus\Arena_Secondary\Arena_Secondary_Send	
+
+Audio Devices	ID	Name	Type				Notes
+	456022829	System_Secondary	System			
+	750427081	System_Quadernary	System			
+	1047160555	System_Tertiary	System			
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

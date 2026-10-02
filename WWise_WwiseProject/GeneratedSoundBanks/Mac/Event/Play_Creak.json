@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "202341454",
+    "Type": "Event",
+    "GUID": "{E0000000-0005-4000-8005-000000000005}",
+    "Language": "SFX",
+    "Hash": "{7C13C0C6-6808-202F-268D-23558AA023D3}",
+    "ObjectPath": "Play_Creak",
+    "ShortName": "Play_Creak",
+    "Path": "Event/Play_Creak.bnk",
+    "Media": [
+     {
+      "Id": "900000501",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Arena\\Creak.wav",
+      "Path": "Media/900000501.wem",
+      "CachePath": "D4/{D498CEC0-A6C6-4AE3-0A57-D51E543D5710}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "202341454",
+      "Name": "Play_Creak",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Creak",
+      "GUID": "{E0000000-0005-4000-8005-000000000005}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.55",
+      "DurationMax": "0.55",
+      "MediaRefs": [
+       {
+        "Id": "900000501"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{1F57F4EC-1EF6-5F1D-825F-E976D2329BDF}"
+ }
+}

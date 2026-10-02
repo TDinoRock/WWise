@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8C6D4EBB-2748-4606-8D7E-58E95DB7A826}" SchemaVersion="133">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{8C6D4EBB-2748-4606-8D7E-58E95DB7A826}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{1C23F569-8F5B-4E70-B5C8-D2049802C42E}" WorkUnitID="{0629F2A1-AE24-403F-9488-1C56F217C4B1}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Players_Primary" ID="{B1A0F1C3-4D5E-4F60-8172-93A4B5C6D701}">
+							<ChildrenList>
+								<AuxBus Name="Players_Primary_Send" ID="{A0000000-0001-4001-8001-000000001EF0}"/>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="Arena_Primary" ID="{B1A0F1C3-4D5E-4F60-8172-93A4B5C6D702}">
+							<ChildrenList>
+								<AuxBus Name="Arena_Primary_Send" ID="{A0000000-0002-4001-8002-000000001EF1}"/>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="Dry (Muted)" ID="{D0000000-0000-4000-8000-00000000D0D0}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>-96</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+						</Bus>
+					</ChildrenList>
+				</Bus>
+				<Bus Name="Secondary Audio Bus" ID="{B2A0F1C3-4D5E-4F60-8172-93A4B5C6D7E8}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System_Secondary" ID="{7E1F3A20-5B6C-4D8E-9F01-2A3B4C5D6E70}" WorkUnitID="{0629F2A1-AE24-403F-9488-1C56F217C4B1}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Players_Secondary" ID="{B2A0F1C3-4D5E-4F60-8172-93A4B5C6D701}">
+							<ChildrenList>
+								<AuxBus Name="Players_Secondary_Send" ID="{A0000000-0001-4002-8001-000000003DDF}"/>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="Arena_Secondary" ID="{B2A0F1C3-4D5E-4F60-8172-93A4B5C6D702}">
+							<ChildrenList>
+								<AuxBus Name="Arena_Secondary_Send" ID="{A0000000-0002-4002-8002-000000003DE0}"/>
+							</ChildrenList>
+						</Bus>
+					</ChildrenList>
+				</Bus>
+				<Bus Name="Tertiary Audio Bus" ID="{D01FC66B-94A2-43A0-B860-6E4F9D844BCD}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System_Tertiary" ID="{30FFB12C-CC76-432C-949D-5B20CF91EFDD}" WorkUnitID="{0629F2A1-AE24-403F-9488-1C56F217C4B1}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Players_Tertiary" ID="{0926B24B-DDF2-485E-9DA6-2D5965BA9127}">
+							<ChildrenList>
+								<AuxBus Name="Players_Tertiary_Send" ID="{A0000000-0001-4003-8001-000000005CCE}"/>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="Arena_Tertiary" ID="{2DF9FCAB-92EA-47F1-BB53-CBDE915987A5}">
+							<ChildrenList>
+								<AuxBus Name="Arena_Tertiary_Send" ID="{A0000000-0002-4003-8002-000000005CCF}"/>
+							</ChildrenList>
+						</Bus>
+					</ChildrenList>
+				</Bus>
+				<Bus Name="Quadernary Audio Bus" ID="{E66ACDB0-DDCC-4FBB-973B-356B1640A22C}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System_Quadernary" ID="{B8521CA2-ADDD-48F6-AF77-23B59989B703}" WorkUnitID="{0629F2A1-AE24-403F-9488-1C56F217C4B1}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Players_Quadernary" ID="{063D5EF6-4D87-422B-A5B2-390E75443E66}">
+							<ChildrenList>
+								<AuxBus Name="Players_Quadernary_Send" ID="{A0000000-0001-4004-8001-000000007BBD}"/>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="Arena_Quadernary" ID="{AAF6BEB2-60CA-4E56-8FBA-0EC3A138F704}">
+							<ChildrenList>
+								<AuxBus Name="Arena_Quadernary_Send" ID="{A0000000-0002-4004-8002-000000007BBE}"/>
+							</ChildrenList>
+						</Bus>
+					</ChildrenList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

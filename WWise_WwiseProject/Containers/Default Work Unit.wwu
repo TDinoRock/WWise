@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{289F1513-4054-40B1-9FF7-7FA978B3D73D}" SchemaVersion="133">
+	<Containers>
+		<WorkUnit Name="Default Work Unit" ID="{289F1513-4054-40B1-9FF7-7FA978B3D73D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Footstep" ID="{C0000000-0001-4000-8001-000000000001}" ShortID="700001013">
+					<PropertyList>
+						<Property Name="OverrideOutput" Type="bool" Value="True"/>
+						<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+						<Property Name="OutputBusVolume" Type="Real64">
+							<ValueList>
+								<Value>-96</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{C3000000-0001-4001-8001-000000001EF0}">
+										<PropertyList>
+											<Property Name="Max" Type="Real64" Value="150"/>
+											<Property Name="Min" Type="Real64" Value="-150"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{C4000000-0001-4001-8001-000000001EF0}">
+										<PropertyList>
+											<Property Name="Max" Type="Real64" Value="2"/>
+											<Property Name="Min" Type="Real64" Value="-2"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion" CompanyID="4095" PluginID="65535" PluginType="15">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09F1D17F-F77E-477E-9D26-D1BB1A7B8378}"/>
+						</Reference>
+						<Reference Name="OutputBus" CompanyID="4095" PluginID="65535" PluginType="15">
+							<ObjectRef Name="Dry (Muted)" ID="{D0000000-0000-4000-8000-00000000D0D0}" WorkUnitID="{8C6D4EBB-2748-4606-8D7E-58E95DB7A826}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Footstep" ID="{C2000000-0001-4001-8001-000000001EF0}">
+							<Language>SFX</Language>
+							<AudioFile>Arena\Footstep.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="900000101"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Footstep" ID="{C2000000-0001-4001-8001-000000001EF0}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Bump" ID="{C0000000-0002-4000-8002-000000000002}" ShortID="700002026">
+					<PropertyList>
+						<Property Name="OverrideOutput" Type="bool" Value="True"/>
+						<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+						<Property Name="OutputBusVolume" Type="Real64">
+							<ValueList>
+								<Value>-96</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{C3000000-0002-4001-8002-000000001EF1}">
+										<PropertyList>
+											<Property Name="Max" Type="Real64" Value="60"/>
+											<Property Name="Min" Type="Real64" Value="-60"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{C4000000-0002-4001-8002-000000001EF1}">
+										<PropertyList>
+											<Property Name="Max" Type="Real64" Value="1"/>
+											<Property Name="Min" Type="Real64" Value="-1"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion" CompanyID="4095" PluginID="65535" PluginType="15">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09F1D17F-F77E-477E-9D26-D1BB1A7B8378}"/>
+						</Reference>
+						<Reference Name="OutputBus" CompanyID="4095" PluginID="65535" PluginType="15">
+							<ObjectRef Name="Dry (Muted)" ID="{D0000000-0000-4000-8000-00000000D0D0}" WorkUnitID="{8C6D4EBB-2748-4606-8D7E-58E95DB7A826}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Bump" ID="{C2000000-0002-4001-8002-000000001EF1}">
+							<Language>SFX</Language>
+							<AudioFile>Arena\Bump.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="900000201"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Bump" ID="{C2000000-0002-4001-8002-000000001EF1}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Turn" ID="{C0000000-0003-4000-8003-000000000003}" ShortID="700003039">
+					<PropertyList>
+						<Property Name="OverrideOutput" Type="bool" Value="True"/>
+						<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+						<Property Name="OutputBusVolume" Type="Real64">
+							<ValueList>
+								<Value>-96</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{C3000000-0003-4001-8003-000000001EF2}">
+										<PropertyList>
+											<Property Name="Max" Type="Real64" Value="80"/>
+											<Property Name="Min" Type="Real64" Value="-80"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-12</Value>
+							</ValueList>
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{C4000000-0003-4001-8003-000000001EF2}">
+										<PropertyList>
+											<Property Name="Max" Type="Real64" Value="1"/>
+											<Property Name="Min" Type="Real64" Value="-1"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion" CompanyID="4095" PluginID="65535" PluginType="15">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09F1D17F-F77E-477E-9D26-D1BB1A7B8378}"/>
+						</Reference>
+						<Reference Name="OutputBus" CompanyID="4095" PluginID="65535" PluginType="15">
+							<ObjectRef Name="Dry (Muted)" ID="{D0000000-0000-4000-8000-00000000D0D0}" WorkUnitID="{8C6D4EBB-2748-4606-8D7E-58E95DB7A826}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Turn" ID="{C2000000-0003-4001-8003-000000001EF2}">
+							<Language>SFX</Language>
+							<AudioFile>Arena\Turn.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="900000301"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Turn" ID="{C2000000-0003-4001-8003-000000001EF2}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Drip" ID="{C0000000-0004-4000-8004-000000000004}" ShortID="700004052">
+					<PropertyList>
+						<Property Name="OverrideOutput" Type="bool" Value="True"/>
+						<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+						<Property Name="OutputBusVolume" Type="Real64">
+							<ValueList>
+								<Value>-96</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{C3000000-0004-4001-8004-000000001EF3}">
+										<PropertyList>
+											<Property Name="Max" Type="Real64" Value="300"/>
+											<Property Name="Min" Type="Real64" Value="-300"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-8</Value>
+							</ValueList>
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{C4000000-0004-4001-8004-000000001EF3}">
+										<PropertyList>
+											<Property Name="Max" Type="Real64" Value="3"/>
+											<Property Name="Min" Type="Real64" Value="-3"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion" CompanyID="4095" PluginID="65535" PluginType="15">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09F1D17F-F77E-477E-9D26-D1BB1A7B8378}"/>
+						</Reference>
+						<Reference Name="OutputBus" CompanyID="4095" PluginID="65535" PluginType="15">
+							<ObjectRef Name="Dry (Muted)" ID="{D0000000-0000-4000-8000-00000000D0D0}" WorkUnitID="{8C6D4EBB-2748-4606-8D7E-58E95DB7A826}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Drip" ID="{C2000000-0004-4001-8004-000000001EF3}">
+							<Language>SFX</Language>
+							<AudioFile>Arena\Drip.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="900000401"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Drip" ID="{C2000000-0004-4001-8004-000000001EF3}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Creak" ID="{C0000000-0005-4000-8005-000000000005}" ShortID="700005065">
+					<PropertyList>
+						<Property Name="OverrideOutput" Type="bool" Value="True"/>
+						<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+						<Property Name="OutputBusVolume" Type="Real64">
+							<ValueList>
+								<Value>-96</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{C3000000-0005-4001-8005-000000001EF4}">
+										<PropertyList>
+											<Property Name="Max" Type="Real64" Value="200"/>
+											<Property Name="Min" Type="Real64" Value="-200"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-8</Value>
+							</ValueList>
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{C4000000-0005-4001-8005-000000001EF4}">
+										<PropertyList>
+											<Property Name="Max" Type="Real64" Value="3"/>
+											<Property Name="Min" Type="Real64" Value="-3"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion" CompanyID="4095" PluginID="65535" PluginType="15">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09F1D17F-F77E-477E-9D26-D1BB1A7B8378}"/>
+						</Reference>
+						<Reference Name="OutputBus" CompanyID="4095" PluginID="65535" PluginType="15">
+							<ObjectRef Name="Dry (Muted)" ID="{D0000000-0000-4000-8000-00000000D0D0}" WorkUnitID="{8C6D4EBB-2748-4606-8D7E-58E95DB7A826}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Creak" ID="{C2000000-0005-4001-8005-000000001EF4}">
+							<Language>SFX</Language>
+							<AudioFile>Arena\Creak.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="900000501"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Creak" ID="{C2000000-0005-4001-8005-000000001EF4}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Chirp" ID="{C0000000-0006-4000-8006-000000000006}" ShortID="700006078">
+					<PropertyList>
+						<Property Name="OverrideOutput" Type="bool" Value="True"/>
+						<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+						<Property Name="OutputBusVolume" Type="Real64">
+							<ValueList>
+								<Value>-96</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{C3000000-0006-4001-8006-000000001EF5}">
+										<PropertyList>
+											<Property Name="Max" Type="Real64" Value="400"/>
+											<Property Name="Min" Type="Real64" Value="-400"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-12</Value>
+							</ValueList>
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{C4000000-0006-4001-8006-000000001EF5}">
+										<PropertyList>
+											<Property Name="Max" Type="Real64" Value="3"/>
+											<Property Name="Min" Type="Real64" Value="-3"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion" CompanyID="4095" PluginID="65535" PluginType="15">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09F1D17F-F77E-477E-9D26-D1BB1A7B8378}"/>
+						</Reference>
+						<Reference Name="OutputBus" CompanyID="4095" PluginID="65535" PluginType="15">
+							<ObjectRef Name="Dry (Muted)" ID="{D0000000-0000-4000-8000-00000000D0D0}" WorkUnitID="{8C6D4EBB-2748-4606-8D7E-58E95DB7A826}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Chirp" ID="{C2000000-0006-4001-8006-000000001EF5}">
+							<Language>SFX</Language>
+							<AudioFile>Arena\Chirp.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="900000601"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Chirp" ID="{C2000000-0006-4001-8006-000000001EF5}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Hum" ID="{C0000000-0007-4000-8007-000000000007}" ShortID="700007091">
+					<PropertyList>
+						<Property Name="OverrideOutput" Type="bool" Value="True"/>
+						<Property Name="OverrideGameAuxSends" Type="bool" Value="True"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+						<Property Name="OutputBusVolume" Type="Real64">
+							<ValueList>
+								<Value>-96</Value>
+							</ValueList>
+						</Property>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-14</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion" CompanyID="4095" PluginID="65535" PluginType="15">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{09F1D17F-F77E-477E-9D26-D1BB1A7B8378}"/>
+						</Reference>
+						<Reference Name="OutputBus" CompanyID="4095" PluginID="65535" PluginType="15">
+							<ObjectRef Name="Dry (Muted)" ID="{D0000000-0000-4000-8000-00000000D0D0}" WorkUnitID="{8C6D4EBB-2748-4606-8D7E-58E95DB7A826}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Hum" ID="{C2000000-0007-4001-8007-000000001EF6}">
+							<Language>SFX</Language>
+							<AudioFile>Arena\Hum.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="900000701"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Hum" ID="{C2000000-0007-4001-8007-000000001EF6}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</Containers>
+</WwiseDocument>

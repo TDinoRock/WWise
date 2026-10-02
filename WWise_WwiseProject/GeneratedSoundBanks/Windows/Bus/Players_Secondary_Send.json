@@ -1,0 +1,29 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "127652387",
+    "Type": "Bus",
+    "GUID": "{A0000000-0001-4002-8001-000000003DDF}",
+    "Language": "SFX",
+    "Hash": "{A3D62D95-AC57-F7B4-8336-FB095010FCB5}",
+    "ObjectPath": "Players_Secondary_Send",
+    "ShortName": "Players_Secondary_Send",
+    "Path": "Bus/Players_Secondary_Send.bnk",
+    "AuxBusses": [
+     {
+      "Id": "127652387",
+      "Name": "Players_Secondary_Send",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Secondary Audio Bus\\Players_Secondary\\Players_Secondary_Send",
+      "GUID": "{A0000000-0001-4002-8001-000000003DDF}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{5C816B7B-D2EC-AD34-4665-EDB9787536B0}"
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "1539677961",
+    "Type": "Bus",
+    "GUID": "{A0000000-0001-4004-8001-000000007BBD}",
+    "Language": "SFX",
+    "Hash": "{B262BB96-1408-4EB8-4FE1-A73FA08CEFF7}",
+    "ObjectPath": "Players_Quadernary_Send",
+    "ShortName": "Players_Quadernary_Send",
+    "Path": "Bus/Players_Quadernary_Send.bnk",
+    "AuxBusses": [
+     {
+      "Id": "1539677961",
+      "Name": "Players_Quadernary_Send",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Quadernary Audio Bus\\Players_Quadernary\\Players_Quadernary_Send",
+      "GUID": "{A0000000-0001-4004-8001-000000007BBD}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{16057C29-C595-2C65-6695-8F8D4E98742E}"
+ }
+}

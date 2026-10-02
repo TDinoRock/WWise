@@ -1,0 +1,3 @@
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	1597685999	Players_Primary_Send			\Default Work Unit\Main Audio Bus\Players_Primary\Players_Primary_Send	
+

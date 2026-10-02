@@ -1,0 +1,29 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "618194488",
+    "Type": "Bus",
+    "GUID": "{A0000000-0002-4003-8002-000000005CCF}",
+    "Language": "SFX",
+    "Hash": "{8216C275-73AC-E7F3-FAB4-FD6818128169}",
+    "ObjectPath": "Arena_Tertiary_Send",
+    "ShortName": "Arena_Tertiary_Send",
+    "Path": "Bus/Arena_Tertiary_Send.bnk",
+    "AuxBusses": [
+     {
+      "Id": "618194488",
+      "Name": "Arena_Tertiary_Send",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Tertiary Audio Bus\\Arena_Tertiary\\Arena_Tertiary_Send",
+      "GUID": "{A0000000-0002-4003-8002-000000005CCF}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{F149F7A0-9D59-45EA-2ACE-5ACC57CA4DF3}"
+ }
+}

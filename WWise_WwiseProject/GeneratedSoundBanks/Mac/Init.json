@@ -1,0 +1,195 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "1355168291",
+    "Type": "User",
+    "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
+    "Language": "SFX",
+    "Hash": "{54F07469-BE67-07A9-C217-607A86BEF2F2}",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk",
+    "Plugins": {
+     "AudioDevices": [
+      {
+       "Id": "456022829",
+       "Name": "System_Secondary",
+       "ObjectPath": "\\Devices\\Default Work Unit\\System_Secondary",
+       "GUID": "{7E1F3A20-5B6C-4D8E-9F01-2A3B4C5D6E70}",
+       "LibName": "System",
+       "LibId": "11403271"
+      },
+      {
+       "Id": "750427081",
+       "Name": "System_Quadernary",
+       "ObjectPath": "\\Devices\\Default Work Unit\\System_Quadernary",
+       "GUID": "{B8521CA2-ADDD-48F6-AF77-23B59989B703}",
+       "LibName": "System",
+       "LibId": "11403271"
+      },
+      {
+       "Id": "1047160555",
+       "Name": "System_Tertiary",
+       "ObjectPath": "\\Devices\\Default Work Unit\\System_Tertiary",
+       "GUID": "{30FFB12C-CC76-432C-949D-5B20CF91EFDD}",
+       "LibName": "System",
+       "LibId": "11403271"
+      },
+      {
+       "Id": "2317455096",
+       "Name": "No_Output",
+       "ObjectPath": "\\Devices\\Default Work Unit\\No_Output",
+       "GUID": "{5FF64B43-DB39-411D-8CF9-7328C7C53DDE}",
+       "LibName": "No Output",
+       "LibId": "11862023"
+      },
+      {
+       "Id": "3859886410",
+       "Name": "System",
+       "ObjectPath": "\\Devices\\Default Work Unit\\System",
+       "GUID": "{1C23F569-8F5B-4E70-B5C8-D2049802C42E}",
+       "LibName": "System",
+       "LibId": "11403271"
+      }
+     ]
+    },
+    "Busses": [
+     {
+      "Id": "609718125",
+      "Name": "Arena_Secondary",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Secondary Audio Bus\\Arena_Secondary",
+      "GUID": "{B2A0F1C3-4D5E-4F60-8172-93A4B5C6D702}"
+     },
+     {
+      "Id": "656481476",
+      "Name": "Players_Quadernary",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Quadernary Audio Bus\\Players_Quadernary",
+      "GUID": "{063D5EF6-4D87-422B-A5B2-390E75443E66}"
+     },
+     {
+      "Id": "1149715499",
+      "Name": "Arena_Tertiary",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Tertiary Audio Bus\\Arena_Tertiary",
+      "GUID": "{2DF9FCAB-92EA-47F1-BB53-CBDE915987A5}"
+     },
+     {
+      "Id": "1637459849",
+      "Name": "Quadernary Audio Bus",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Quadernary Audio Bus",
+      "GUID": "{E66ACDB0-DDCC-4FBB-973B-356B1640A22C}"
+     },
+     {
+      "Id": "2082295554",
+      "Name": "Players_Primary",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\Players_Primary",
+      "GUID": "{B1A0F1C3-4D5E-4F60-8172-93A4B5C6D701}"
+     },
+     {
+      "Id": "2155519241",
+      "Name": "Arena_Quadernary",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Quadernary Audio Bus\\Arena_Quadernary",
+      "GUID": "{AAF6BEB2-60CA-4E56-8FBA-0EC3A138F704}"
+     },
+     {
+      "Id": "2246998526",
+      "Name": "Main Audio Bus",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus",
+      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     },
+     {
+      "Id": "2751942785",
+      "Name": "Arena_Primary",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\Arena_Primary",
+      "GUID": "{B1A0F1C3-4D5E-4F60-8172-93A4B5C6D702}"
+     },
+     {
+      "Id": "2794753238",
+      "Name": "Dry (Muted)",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\Dry (Muted)",
+      "GUID": "{D0000000-0000-4000-8000-00000000D0D0}"
+     },
+     {
+      "Id": "3155756062",
+      "Name": "Players_Secondary",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Secondary Audio Bus\\Players_Secondary",
+      "GUID": "{B2A0F1C3-4D5E-4F60-8172-93A4B5C6D701}"
+     },
+     {
+      "Id": "3210816247",
+      "Name": "Tertiary Audio Bus",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Tertiary Audio Bus",
+      "GUID": "{D01FC66B-94A2-43A0-B860-6E4F9D844BCD}"
+     },
+     {
+      "Id": "3217263726",
+      "Name": "Players_Tertiary",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Tertiary Audio Bus\\Players_Tertiary",
+      "GUID": "{0926B24B-DDF2-485E-9DA6-2D5965BA9127}"
+     },
+     {
+      "Id": "3434875749",
+      "Name": "Secondary Audio Bus",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Secondary Audio Bus",
+      "GUID": "{B2A0F1C3-4D5E-4F60-8172-93A4B5C6D7E8}"
+     }
+    ],
+    "AuxBusses": [
+     {
+      "Id": "127652387",
+      "Name": "Players_Secondary_Send",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Secondary Audio Bus\\Players_Secondary\\Players_Secondary_Send",
+      "GUID": "{A0000000-0001-4002-8001-000000003DDF}"
+     },
+     {
+      "Id": "618194488",
+      "Name": "Arena_Tertiary_Send",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Tertiary Audio Bus\\Arena_Tertiary\\Arena_Tertiary_Send",
+      "GUID": "{A0000000-0002-4003-8002-000000005CCF}"
+     },
+     {
+      "Id": "1407375518",
+      "Name": "Arena_Primary_Send",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\Arena_Primary\\Arena_Primary_Send",
+      "GUID": "{A0000000-0002-4001-8002-000000001EF1}"
+     },
+     {
+      "Id": "1539677961",
+      "Name": "Players_Quadernary_Send",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Quadernary Audio Bus\\Players_Quadernary\\Players_Quadernary_Send",
+      "GUID": "{A0000000-0001-4004-8001-000000007BBD}"
+     },
+     {
+      "Id": "1597685999",
+      "Name": "Players_Primary_Send",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\Players_Primary\\Players_Primary_Send",
+      "GUID": "{A0000000-0001-4001-8001-000000001EF0}"
+     },
+     {
+      "Id": "1736423286",
+      "Name": "Arena_Quadernary_Send",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Quadernary Audio Bus\\Arena_Quadernary\\Arena_Quadernary_Send",
+      "GUID": "{A0000000-0002-4004-8002-000000007BBE}"
+     },
+     {
+      "Id": "2161507795",
+      "Name": "Players_Tertiary_Send",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Tertiary Audio Bus\\Players_Tertiary\\Players_Tertiary_Send",
+      "GUID": "{A0000000-0001-4003-8001-000000005CCE}"
+     },
+     {
+      "Id": "3889555570",
+      "Name": "Arena_Secondary_Send",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Secondary Audio Bus\\Arena_Secondary\\Arena_Secondary_Send",
+      "GUID": "{A0000000-0002-4002-8002-000000003DE0}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{5B09DCFD-2CBB-B5C4-2B10-6B5E1A7797A5}"
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "501453442",
+    "Type": "Event",
+    "GUID": "{E0000000-0008-4000-8008-000000000008}",
+    "Language": "SFX",
+    "Hash": "{9A88BC61-6F62-3F85-1B7D-C645F704A79F}",
+    "ObjectPath": "Stop_Hum",
+    "ShortName": "Stop_Hum",
+    "Path": "Event/Stop_Hum.bnk",
+    "Events": [
+     {
+      "Id": "501453442",
+      "Name": "Stop_Hum",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_Hum",
+      "GUID": "{E0000000-0008-4000-8008-000000000008}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{693EE74A-8076-F567-333C-97A0A899B696}"
+ }
+}

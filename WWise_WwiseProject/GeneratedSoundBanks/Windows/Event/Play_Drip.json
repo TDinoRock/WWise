@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "2040906863",
+    "Type": "Event",
+    "GUID": "{E0000000-0004-4000-8004-000000000004}",
+    "Language": "SFX",
+    "Hash": "{C4EC26AA-EA30-81F1-C400-C6C07F9A96C3}",
+    "ObjectPath": "Play_Drip",
+    "ShortName": "Play_Drip",
+    "Path": "Event/Play_Drip.bnk",
+    "Media": [
+     {
+      "Id": "900000401",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Arena\\Drip.wav",
+      "Path": "Media/900000401.wem",
+      "CachePath": "F2/{F2FAE21C-07D6-265E-FF40-430D634E096E}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2040906863",
+      "Name": "Play_Drip",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Drip",
+      "GUID": "{E0000000-0004-4000-8004-000000000004}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.28",
+      "DurationMax": "0.28",
+      "MediaRefs": [
+       {
+        "Id": "900000401"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{4D093A50-8A18-21BB-C9DB-4FC925537B8B}"
+ }
+}

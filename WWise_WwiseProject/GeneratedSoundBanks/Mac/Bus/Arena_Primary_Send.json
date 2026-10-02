@@ -1,0 +1,29 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "1407375518",
+    "Type": "Bus",
+    "GUID": "{A0000000-0002-4001-8002-000000001EF1}",
+    "Language": "SFX",
+    "Hash": "{E1494BF0-078E-E6ED-E27C-33F0669D4DB9}",
+    "ObjectPath": "Arena_Primary_Send",
+    "ShortName": "Arena_Primary_Send",
+    "Path": "Bus/Arena_Primary_Send.bnk",
+    "AuxBusses": [
+     {
+      "Id": "1407375518",
+      "Name": "Arena_Primary_Send",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\Arena_Primary\\Arena_Primary_Send",
+      "GUID": "{A0000000-0002-4001-8002-000000001EF1}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{86E623EA-FEB8-5ADF-235E-EE3966B22800}"
+ }
+}

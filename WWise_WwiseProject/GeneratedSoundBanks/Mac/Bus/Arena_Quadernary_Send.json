@@ -1,0 +1,29 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "1736423286",
+    "Type": "Bus",
+    "GUID": "{A0000000-0002-4004-8002-000000007BBE}",
+    "Language": "SFX",
+    "Hash": "{24D58330-082A-4AF7-3A75-6834A08A79B4}",
+    "ObjectPath": "Arena_Quadernary_Send",
+    "ShortName": "Arena_Quadernary_Send",
+    "Path": "Bus/Arena_Quadernary_Send.bnk",
+    "AuxBusses": [
+     {
+      "Id": "1736423286",
+      "Name": "Arena_Quadernary_Send",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Quadernary Audio Bus\\Arena_Quadernary\\Arena_Quadernary_Send",
+      "GUID": "{A0000000-0002-4004-8002-000000007BBE}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{0EF57FE7-9B61-9A98-773D-D2A9A64DA7FA}"
+ }
+}

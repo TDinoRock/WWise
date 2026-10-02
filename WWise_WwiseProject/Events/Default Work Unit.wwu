@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{87C5080A-4619-4F48-9883-399EE9DD06CE}" SchemaVersion="133">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{87C5080A-4619-4F48-9883-399EE9DD06CE}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Footstep" ID="{E0000000-0001-4000-8001-000000000001}">
+					<ChildrenList>
+						<Action Name="" ID="{E1000000-0001-4000-8001-000000000001}" ShortID="101">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="Footstep" ID="{C0000000-0001-4000-8001-000000000001}" WorkUnitID="{289F1513-4054-40B1-9FF7-7FA978B3D73D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Bump" ID="{E0000000-0002-4000-8002-000000000002}">
+					<ChildrenList>
+						<Action Name="" ID="{E1000000-0002-4000-8002-000000000002}" ShortID="102">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="Bump" ID="{C0000000-0002-4000-8002-000000000002}" WorkUnitID="{289F1513-4054-40B1-9FF7-7FA978B3D73D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Turn" ID="{E0000000-0003-4000-8003-000000000003}">
+					<ChildrenList>
+						<Action Name="" ID="{E1000000-0003-4000-8003-000000000003}" ShortID="103">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="Turn" ID="{C0000000-0003-4000-8003-000000000003}" WorkUnitID="{289F1513-4054-40B1-9FF7-7FA978B3D73D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Drip" ID="{E0000000-0004-4000-8004-000000000004}">
+					<ChildrenList>
+						<Action Name="" ID="{E1000000-0004-4000-8004-000000000004}" ShortID="104">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="Drip" ID="{C0000000-0004-4000-8004-000000000004}" WorkUnitID="{289F1513-4054-40B1-9FF7-7FA978B3D73D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Creak" ID="{E0000000-0005-4000-8005-000000000005}">
+					<ChildrenList>
+						<Action Name="" ID="{E1000000-0005-4000-8005-000000000005}" ShortID="105">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="Creak" ID="{C0000000-0005-4000-8005-000000000005}" WorkUnitID="{289F1513-4054-40B1-9FF7-7FA978B3D73D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Chirp" ID="{E0000000-0006-4000-8006-000000000006}">
+					<ChildrenList>
+						<Action Name="" ID="{E1000000-0006-4000-8006-000000000006}" ShortID="106">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="Chirp" ID="{C0000000-0006-4000-8006-000000000006}" WorkUnitID="{289F1513-4054-40B1-9FF7-7FA978B3D73D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Hum" ID="{E0000000-0007-4000-8007-000000000007}">
+					<ChildrenList>
+						<Action Name="" ID="{E1000000-0007-4000-8007-000000000007}" ShortID="107">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="Hum" ID="{C0000000-0007-4000-8007-000000000007}" WorkUnitID="{289F1513-4054-40B1-9FF7-7FA978B3D73D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Hum" ID="{E0000000-0008-4000-8008-000000000008}">
+					<ChildrenList>
+						<Action Name="" ID="{E1000000-0008-4000-8008-000000000008}" ShortID="108">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target" CompanyID="4095" PluginID="65535" PluginType="15">
+									<ObjectRef Name="Hum" ID="{C0000000-0007-4000-8007-000000000007}" WorkUnitID="{289F1513-4054-40B1-9FF7-7FA978B3D73D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

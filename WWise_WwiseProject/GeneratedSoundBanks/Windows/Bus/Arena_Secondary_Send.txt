@@ -1,0 +1,3 @@
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	3889555570	Arena_Secondary_Send			\Default Work Unit\Secondary Audio Bus\Arena_Secondary\Arena_Secondary_Send	
+
