@@ -26,7 +26,7 @@ public class PlayerMover : MonoBehaviour
 
     [Header("Movement")]
     [Tooltip("Seconds to move one square. Keep the same on every character so they all move at the same speed.")]
-    public float stepTime = 0.2f;
+    [Min(0.01f)] public float stepTime = 0.2f;
     [Tooltip("Rotate the character to face the direction pressed. The sprite should point up by default.")]
     public bool rotateToFace = true;
 

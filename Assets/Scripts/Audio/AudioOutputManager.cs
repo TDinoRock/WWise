@@ -92,7 +92,10 @@ namespace GameAudio
             // Wwise's AkInitializer starts the sound engine in its own Awake. By Start it is normally up;
             // if not, ask to be called back when it is. Calling the engine before init does nothing.
             if (AkUnitySoundEngine.IsInitialized()) OpenSavedOutputs();
-            else AkUnitySoundEngineInitialization.Instance.initializationDelegate += OpenSavedOutputs;
+            else if (AkUnitySoundEngineInitialization.Instance != null)
+                AkUnitySoundEngineInitialization.Instance.initializationDelegate += OpenSavedOutputs;
+            else
+                Debug.LogWarning("[Audio] Wwise isn't initialized and there's no AkInitializer in the scene (add WwiseGlobal).", this);
         }
 
         // Windows opens a device a moment after AddOutput returns, so "live" can read false at first.

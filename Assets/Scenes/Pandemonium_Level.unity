@@ -186,8 +186,8 @@ MonoBehaviour:
   m_NormalMapQuality: 2
   m_UseNormalMap: 0
   m_ShadowsEnabled: 1
-  m_ShadowIntensity: 1
-  m_ShadowSoftness: 0.1
+  m_ShadowIntensity: 0.8
+  m_ShadowSoftness: 0.4
   m_ShadowSoftnessFalloffIntensity: 0.5
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
@@ -412,7 +412,7 @@ MonoBehaviour:
     rid: 8691874740509868463
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1.1425884
+  m_Intensity: 1.115667
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
   m_ApplyToSortingLayers: 0000000033666177
@@ -425,8 +425,8 @@ MonoBehaviour:
   m_NormalMapQuality: 2
   m_UseNormalMap: 0
   m_ShadowsEnabled: 1
-  m_ShadowIntensity: 1
-  m_ShadowSoftness: 0.1
+  m_ShadowIntensity: 0.8
+  m_ShadowSoftness: 0.4
   m_ShadowSoftnessFalloffIntensity: 0.5
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
@@ -435,8 +435,8 @@ MonoBehaviour:
     m_Extent: {x: 0.9985302, y: 0.99853027, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
-  m_PointLightInnerRadius: 0.49834958
-  m_PointLightOuterRadius: 2.4917479
+  m_PointLightInnerRadius: 0.4943358
+  m_PointLightOuterRadius: 2.471679
   m_ShapeLightParametricSides: 5
   m_ShapeLightParametricAngleOffset: 0
   m_ShapeLightParametricRadius: 1
@@ -1159,10 +1159,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c40b6a41890ec104e9b5246965b8c3c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KeyboardPlayerInput
+  useKeyboard: 1
   north: 23
   east: 26
   south: 25
   west: 24
+  action: 1
+  northMessage: Up
+  eastMessage: Right
+  southMessage: Down
+  westMessage: Left
+  actionMessage: Action
+  releaseSuffix: Release
+  releaseAfter: 0.25
+  logMessages: 0
+  onAction:
+    m_PersistentCalls:
+      m_Calls: []
+  arduinoConnected: 0
+  lastMessage: 
 --- !u!114 &654515908
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1296,6 +1311,68 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1079198886
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1079198889}
+  - component: {fileID: 1079198888}
+  - component: {fileID: 1079198887}
+  m_Layer: 0
+  m_Name: ArdityController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1079198887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1079198886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b208ecb7e17549a40bcf898df5395590, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ArdityListener
+--- !u!114 &1079198888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1079198886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bc5f48af2cffd747a079fe8c632e2c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SerialController
+  portName: COM3
+  baudRate: 9600
+  messageListener: {fileID: 1962848911}
+  reconnectionDelay: 1000
+  maxUnreadMessages: 20
+--- !u!4 &1079198889
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1079198886}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 16.07799, y: 6.82503, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7763,8 +7840,8 @@ MonoBehaviour:
   m_NormalMapQuality: 2
   m_UseNormalMap: 0
   m_ShadowsEnabled: 1
-  m_ShadowIntensity: 1
-  m_ShadowSoftness: 0.1
+  m_ShadowIntensity: 0.8
+  m_ShadowSoftness: 0.4
   m_ShadowSoftnessFalloffIntensity: 0.5
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
@@ -7877,10 +7954,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c40b6a41890ec104e9b5246965b8c3c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KeyboardPlayerInput
+  useKeyboard: 1
   north: 92
   east: 90
   south: 89
   west: 88
+  action: 1
+  northMessage: Up
+  eastMessage: Right
+  southMessage: Down
+  westMessage: Left
+  actionMessage: Action
+  releaseSuffix: Release
+  releaseAfter: 0.25
+  logMessages: 0
+  onAction:
+    m_PersistentCalls:
+      m_Calls: []
+  arduinoConnected: 0
+  lastMessage: 
 --- !u!114 &1293515483
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8029,8 +8121,8 @@ MonoBehaviour:
   m_NormalMapQuality: 2
   m_UseNormalMap: 0
   m_ShadowsEnabled: 1
-  m_ShadowIntensity: 1
-  m_ShadowSoftness: 0.1
+  m_ShadowIntensity: 0.8
+  m_ShadowSoftness: 0.4
   m_ShadowSoftnessFalloffIntensity: 0.5
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
@@ -8257,10 +8349,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c40b6a41890ec104e9b5246965b8c3c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KeyboardPlayerInput
+  useKeyboard: 1
   north: 63
   east: 62
   south: 64
   west: 61
+  action: 1
+  northMessage: Up
+  eastMessage: Right
+  southMessage: Down
+  westMessage: Left
+  actionMessage: Action
+  releaseSuffix: Release
+  releaseAfter: 0.25
+  logMessages: 0
+  onAction:
+    m_PersistentCalls:
+      m_Calls: []
+  arduinoConnected: 0
+  lastMessage: 
 --- !u!114 &1940966454
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8389,10 +8496,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c40b6a41890ec104e9b5246965b8c3c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KeyboardPlayerInput
+  useKeyboard: 1
   north: 37
   east: 18
   south: 33
   west: 15
+  action: 1
+  northMessage: Up
+  eastMessage: Right
+  southMessage: Down
+  westMessage: Left
+  actionMessage: Action
+  releaseSuffix: Release
+  releaseAfter: 0.1
+  logMessages: 1
+  onAction:
+    m_PersistentCalls:
+      m_Calls: []
+  arduinoConnected: 0
+  lastMessage: 
 --- !u!114 &1962848914
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10045,3 +10167,4 @@ SceneRoots:
   - {fileID: 519420032}
   - {fileID: 1857260413}
   - {fileID: 1530957737}
+  - {fileID: 1079198889}
